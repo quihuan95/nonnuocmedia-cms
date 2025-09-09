@@ -1,0 +1,25 @@
+{
+    "kind": "singleType",
+    "collectionName": "galleries",
+    "info": {
+        "singularName": "gallery",
+        "pluralName": "galleries",
+        "displayName": "Gallery"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "home": {
+            "type": "component",
+            "component": "galley.home-gallery",
+            "repeatable": true
+        },
+        "post": {
+            "type": "component",
+            "component": "galley.post-gallery",
+            "repeatable": true
+        }
+    }
+}

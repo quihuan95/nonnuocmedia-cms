@@ -1,0 +1,55 @@
+{
+    "kind": "singleType",
+    "collectionName": "globals",
+    "info": {
+        "singularName": "global",
+        "pluralName": "globals",
+        "displayName": "Global"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hotline1": {
+            "type": "string"
+        },
+        "hotline2": {
+            "type": "string"
+        },
+        "logo": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "email": {
+            "type": "email"
+        },
+        "menu": {
+            "type": "component",
+            "component": "navigation.menu-item",
+            "repeatable": true
+        },
+        "banner": {
+            "type": "media",
+            "multiple": true,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}
