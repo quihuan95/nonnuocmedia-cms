@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "evaluates",
+  "info": {
+    "singularName": "evaluate",
+    "pluralName": "evaluates",
+    "displayName": "Evaluate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "home": {
+      "type": "component",
+      "component": "evaluate.home-gallery",
+      "repeatable": true
+    }
+  }
+}

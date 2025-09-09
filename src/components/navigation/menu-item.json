@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_navigation_menu_items",
+  "info": {
+    "displayName": "menu-item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "default": "internal",
+      "enum": [
+        "internal",
+        "external",
+        "sold_out"
+      ]
+    },
+    "children": {
+      "type": "component",
+      "component": "navigation.menu-child",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

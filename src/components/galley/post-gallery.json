@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_galley_post_galleries",
+  "info": {
+    "displayName": "Post Gallery"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

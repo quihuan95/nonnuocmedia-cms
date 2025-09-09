@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_galley_home_galleries",
+  "info": {
+    "displayName": "Home Gallery"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}
